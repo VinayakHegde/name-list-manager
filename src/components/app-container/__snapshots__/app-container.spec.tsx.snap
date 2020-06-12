@@ -6,17 +6,21 @@ exports[`<AppContainer /> should match the snapshot 1`] = `
     class="addItem"
     data-testid="addItem"
   >
-    <input
-      placeholder="Enter a name"
-      value=""
-    />
-    <button
-      class="primary"
-      disabled=""
-      type="submit"
+    <div
+      class="addItem__field"
     >
-      Add
-    </button>
+      <input
+        placeholder="Enter a name"
+        value=""
+      />
+      <button
+        class="primary"
+        disabled=""
+        type="submit"
+      >
+        Add
+      </button>
+    </div>
     <div
       class="addItem__notice"
     >

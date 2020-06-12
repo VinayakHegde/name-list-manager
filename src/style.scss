@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-family: monospace;
+  #root {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    header {
+      height: 50px;
+      font-size: 2em;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-align: center;
+      line-height: 50px;
+      border-bottom: 1px solid gainsboro;
+      width: 100%;
+    }
+    main {
+      margin: 0 auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      align-items: center;
+      .displayItem {
+        display: flex;
+        border-bottom: 1px solid gainsboro;
+        align-items: center;
+        &__name {
+          flex: 1;
+          display: flex;
+        }
+      }
+      & > * {
+        width: 310px;
+        padding: 5px 0;
+      }
+      .addItem {
+        display: flex;
+        flex-direction: column;
+        &__field {
+          display: flex;
+        }
+        input {
+          font-family: monospace;
+          flex: 1;
+        }
+        &__notice {
+          flex-grow: 1;
+          padding: 10px 0;
+          border-bottom: 1px solid gainsboro;
+          &.error {
+            color: red;
+          }
+        }
+      }
+      .itemList {
+        flex: 1;
+        overflow: auto;
+        .displayItem {
+          padding: 5px 0;
+        }
+      }
+      
+      button {
+        width: 115px;
+        font-size: 1em;
+        height: 2em;
+        line-height: 1.5em;
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        &.primary {
+          background-color: #0069d9;
+          border-color: #0062cc;
+        }
+        &.danger {
+          background-color: #c82333;
+          border-color: #bd2130;
+        }
+        &:disabled {
+          background-color: #6c757d;
+          border-color: #6c757d;
+          cursor: default;
+        }
+      }
+    }
+  }
+}

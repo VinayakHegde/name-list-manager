@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddItem /> should match the snapshot 1`] = `
+<div>
+  <form
+    class="addItem"
+    data-testid="addItem"
+  >
+    <input
+      placeholder="Enter a name"
+      value=""
+    />
+    <button
+      class="primary"
+      disabled=""
+      type="submit"
+    >
+      Add
+    </button>
+    <div
+      class="addItem__notice"
+    >
+      Number of items in the list: 3
+    </div>
+  </form>
+</div>
+`;

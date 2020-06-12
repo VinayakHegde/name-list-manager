@@ -6,6 +6,8 @@ The app allows the user to add and remove names to and from a list.
 There is a button to randomly pick a name from the list, however the same name not picked twice in a row. 
 The picked name displayed in an easy to read way for the user.
 
+[Demo](https://vinayakhegde.github.io/name-list-manager/)
+
 ![](demo.gif)
 
 It fit the following criteria:

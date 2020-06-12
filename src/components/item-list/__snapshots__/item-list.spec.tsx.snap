@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DisplayItem /> should match the snapshot 1`] = `
+<div>
+  <section
+    class="itemList"
+  >
+    <div
+      class="displayItem"
+    >
+      <span
+        class="displayItem__name"
+      >
+        Hello
+      </span>
+      <button
+        class="danger"
+      >
+        Remove
+      </button>
+    </div>
+    <div
+      class="displayItem"
+    >
+      <span
+        class="displayItem__name"
+      >
+        word
+      </span>
+      <button
+        class="danger"
+      >
+        Remove
+      </button>
+    </div>
+    <div
+      class="displayItem"
+    >
+      <span
+        class="displayItem__name"
+      >
+        world
+      </span>
+      <button
+        class="danger"
+      >
+        Remove
+      </button>
+    </div>
+  </section>
+</div>
+`;
